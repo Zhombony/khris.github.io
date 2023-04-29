@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Furry Friends</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	  <h1>Sign Up Form</h1>
+  <p>Sign up to one of our services here.</p></header>
+	<form action="mailto:chriszhang53@gmail.com" method="post" autocomplete="on">
+	<fieldset>
+	
+		
+	<legend>Your Information</legend>
+		
+	  <div class="across">
+		
+	    <label for="fname">First Name </label><input name="fname " type="text" required="required" id="fname " placeholder="First Name">
+		<label for="lname">Last Name </label><input name="lname " type="text" required="required" id="lname " placeholder="Last Name">
+		  
+	  </div>
+		
+	  <div class="across">
+	    <label for="email">Email </label><input name="email" type="email" required="required" id="email" placeholder="MyName@domain.com">
+		<label for="tele">Telephone </label><input name="tele" type="tel" required="required" id="tele" placeholder="123 456 7890">
+		  
+	  </div>
+		 
+	  <fieldset>
+			
+	    <legend>How did you hear about us?</legend>
+		  
+        <p>
+		       <label>
+		         <input type="radio" name="RadioGroup1" value="friend" id="RadioGroup1_0">
+		         Friend</label>
+		       <br>
+		       <label>
+		         <input type="radio" name="RadioGroup1" value="online" id="RadioGroup1_1">
+		         Online</label>
+		       <br>
+		       <label>
+		         <input type="radio" name="RadioGroup1" value="other" id="RadioGroup1_2">
+		         Other</label>
+		       <br>
+        </p>
+        </fieldset>
+		
+		<fieldset>
+		<legend>Booking</legend>
+		<p>Services
+		<select>
+		 <option value="breeds">Puppy Training</option>
+		  <option value="train">Cat Daycare</option>
+		  <option value="pricing">Doggy Hotel</option>
+		  <option value="terms">Obedience Training</option>
+			
+		</select>
+			
+		  </p>
+			<p>Terms
+		<select>
+		 <option value="breeds">1 Term</option>
+		  <option value="train">2 Terms</option>
+		  <option value="pricing">3 Terms</option>
+		  <option value="terms">Whole Year</option>
+			
+		</select>
+			
+		  </p>
+		 
+			
+		</fieldset>
+	  <fieldset>
+			<label for="card">Credit Card Number </label><input name="card " type="text" required="required" id="number" placeholder="e.g. 0000 0000 0000 0000">
+		  <label for="exp">Expiry date </label><input name="exp" type="text" required="required" id="exp " placeholder="Month/Year"><br>
+
+		  <label for="sec">Security Number</label><input name="sec" type="text" required="required" id="exp" placeholder="e.g. 123">
+		<legend>Payment</legend>
+		  <input name="subscribe" id="subscribe" type="checkbox" checked="checked"> <label for="subscribe">Yes, I would like to receive occasional newsletters</label><br>
+
+		  Are you a Robot?<br>
+       <input type="checkbox">Yes
+	<input type="checkbox">No
+		  <input type="checkbox">Maybe 
+			
+		</fieldset>
+		
+		<div class="bootans">
+			<input type="submit">
+			<input type="reset">
+			<a class="back" href="index.html">Go Back</a>
+			
+		</div>
+		
+		</fieldset>		
+	</form>
+</body>
+</html>
