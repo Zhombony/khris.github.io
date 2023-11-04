@@ -1,0 +1,124 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url(images/background.png);
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+body nav a {
+	color: #000000;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+}
+
+main {
+	background-color: rgba(248,248,248,0.75);
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	
+}
+
+
+
+
+h1 {
+	text-align: center;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+ 
+h3 {
+	color: azure;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+p {
+	color: azure;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+.navlist {
+	list-style-type: none;
+	background-color: #E1E1E1;
+	overflow-x: hidden;
+	opacity: 0.9;
+}
+
+.navlistitem {
+
+	float: left;
+	padding-top: 15px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+}
+
+.title {
+	font-size: x-large;
+}
+.column{
+	content: "";
+	display: flex;
+	clear: both;
+
+}
+.col {
+	float: left;
+	flex: 50%;
+padding: 15px;
+}
+
+.col h3{
+	color: #000000;
+	text-align: left;
+}
+
+.co3 {
+	float: left;
+	flex: 33%;
+	padding: 15px;
+}
+
+
+#profile {
+	height: 500px;
+	
+}
+img {
+	width: 100%;
+    display: block;
+	aspect-ratio: 9 / 16;
+	object-fit: cover;
+	transition: transform 600ms;
+}
+   
+.portfolio {
+	list-style: none;
+    margin: auto;
+	padding: 10 10 10 10;
+	display: grid;
+	gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	max-width: 100%;
+	background-color: rgba(248,248,248,0.75);
+}
+  figure {
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+
+}
+
+a:is(:hover, :focus) img {
+		transform: scale(0.9);
+	}
